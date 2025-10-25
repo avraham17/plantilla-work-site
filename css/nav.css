@@ -1,0 +1,32 @@
+nav.menu{
+    border-bottom:  1px solid #000;
+    position: relative;
+    background-color:#0d47a1;
+    
+}
+
+nav.menu ul{
+    position: relative;
+    
+    width: 100%;
+}
+
+nav.menu ul li{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+    left:950px
+
+}
+ nav.menu ul li a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #191919;
+ }
+ nav.menu ul li a:hover,
+ nav.menu ul li a.activo{
+    background-color:white
+ }

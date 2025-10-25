@@ -1,0 +1,15 @@
+
+footer#fprincipal{
+    position: relative;
+    width: 100%; 
+    height: 50px;
+    text-align: center;
+    border-top: 1px solid #000;
+    background-color: #7c7c85;
+    color: #131313;
+    background-image: url(../assets/nnn.jpg);
+}
+footer#principal small{
+    position: relative;
+    top: 3  0px;
+}
