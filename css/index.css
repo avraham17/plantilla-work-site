@@ -1,74 +1,327 @@
 
 *{
-    border: 0px;
+ border: 0px;
     padding: 0px;
     margin: 0px;
+    
 }
+
+
 body{
-    background-image: url(../assets/image1.jpg);
-    font-family:  Arial;
+
+font-family:  Arial;
+    
 }
 
-#nav_principal,
-#contenedor_principal,
-#footer_principal .content_principal
-
-{
-    position: relative;
-    width: 656px;
-    margin: auto;
-}
 
 main{
-    position: relative;
-    border: 1px solid #000;
-    width: 1500px;
-    min-height: 700px;
-    margin: 20px auto;
-    background-color: white;
+position: relative;
+width:100%;
+height: 3050px;
+background-color: rgb(255, 255, 255);
+}
+nav.menu {
+position: relative;
+width: 1000px;
 }
 
-
 header#hprincipal .logo{
-    position: absolute; 
-    width: 200px;
-    height: 180px;
-    top: 60px;
-    left: 10px;
-    background-image: url(../assets/la_oportunidad_436x400.png);
-    background-size: 100%;
+position: absolute; 
+width:240px;
+height:200px;
+top:180px;
+left:10px;
+background-image: url(../assets/la_oportunidad_436x400.png);
+background-size: 100%;
+    animation-name: rotar-360;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+
+}
+@keyframes rotar-360 {
+0% {
+transform: rotate(0deg);
+}
+100% {
+transform: rotate(360deg);
+}
+}
+.logo:hover {
+width: 350px;
+opacity: 1;
+transform: scale(1.3); 
 }
 
 
 #hprincipal h3{
-    position: absolute;
-    font-size: 70px;
-    left: 550px;
-    top: 40px;
-     font-family:cursive;
-     color: #0d47a1;
-     background-color:white
-    
+position: absolute;
+font-size: 70px;
+width: 450px;
+left: 47%;
+top: -1px;        
+text-align: center;    
+margin: 50px;   
+color: rgb(7, 21, 111);
+box-shadow: 5px 5px 15px rgb(63, 63, 63);
+border-radius: 80px;  
+
 }
 #title_{
-    position:relative;
-    left: 830px;
-   
+position:relative;
+left: 830px;
+
 }
 
 #galeria{
 
-    position:absolute;  
-  width:200px;
-  height:200px;
-    left: -400px;
-    top: 450px;
-    display: flex;
-   
-}
-#text{
-    position: absolute;
-    left: 840px;
-    top: 130px;
+position:absolute;  
+width:300px;
+height:400px;
+left: 5%;
+top: 2480px;
+display: flex;
 }
 
+#text h2 { font-size: 48px;}
+
+#text{
+position: absolute;
+left:5%;
+top: 2880px; 
+
+}
+
+#im {
+position:absolute;
+width:800px;
+height:800px;
+left:4% ;
+top: 200px;
+}
+
+.collage {
+position: relative;
+display: grid;
+left:45%;
+grid-template-columns: repeat(5, 0fr);
+gap:10px;
+top: 620px;
+}
+.collage:hover {
+width: 350px;
+opacity: 1;
+transform: scale(1.3); 
+}
+
+#caja {
+position: relative;
+width: 200px;
+left:15%;
+    border-radius: 80px;
+    padding: 50px;
+    top: 75px;
+    text-align: center;    
+}
+
+.titulo{
+position: relative;
+left: 40%;
+top: 520px;
+color:rgb(13, 32, 155);
+}
+p{
+font-size: 28px;
+}
+h2,h3 {
+font-size: 32px;
+}
+.ventanac {
+position: relative;
+width: 300px;           
+height: 250px;          
+background-color: #ffffff; 
+border: 4px solid rgb(243, 244, 247);
+padding: 20px;      
+margin: 50px;   
+border-radius: 80px;  
+display:inline-block;
+box-shadow: 5px 5px 15px rgb(57, 57, 57);
+text-align: center;
+top: 550px;
+left: 5%;
+}
+
+.fondo
+{ position: absolute;
+width: 900px;           
+height: 320px;          
+background-color: #606162; 
+padding: 20px;      
+margin: 50px;   
+border-radius: 80px;  
+display:inline-block;
+box-shadow: 5px 5px 15px rgb(23, 56, 220);
+text-align: center;
+top: 260px;
+left: 31%;
+
+}
+.ventanac {
+position: relative;
+width: 300px;           
+height: 250px;          
+background-color: #ffffff; 
+border: 4px solid rgb(243, 244, 247);
+padding: 20px;      
+margin: 50px;   
+border-radius: 80px;  
+display:inline-block;
+box-shadow: 5px 5px 15px rgb(57, 57, 57);
+text-align: center;
+top: 550px;
+left: 5%;
+animation: moverImagen 5s ease-in-out infinite; 
+}
+@keyframes moverImagen {
+0% {
+transform: translateX(0); 
+}
+50% {
+transform: translateX(100px); 
+}
+100% {
+transform: translateX(0); 
+}
+
+}
+
+.fondo2
+{ position: absolute;
+width: 850px;           
+height: 150px;          
+background-color:rgb(7, 21, 111);
+padding: 20px;      
+margin: 50px;   
+border-radius: 80px;  
+display:inline-block;
+box-shadow: 5px 5px 15px rgb(57, 57, 57);
+text-align: center;
+top: 270px;
+left: 34%;
+
+}
+
+.ventana1 {
+position: relative; 
+display:inline-block;
+top: 130px;
+text-align: center;
+left: 40%;
+color: rgb(180, 214, 231)  ;
+}   
+.ventana1 h2{
+color:rgb(255, 255, 255)
+}
+
+.seg {
+position: relative;
+color:rgb(255, 255, 255);
+display:inline-block;
+top: 200px;
+text-align: center;
+left: 38%;
+font-weight: bold;
+
+}
+
+
+.intersesion {
+position: relative;
+width: 1350px;           
+height: 250px;          
+background-color:rgb(7, 21, 111);
+padding: 20px;  
+border-radius: 80px;      
+margin: 50px;   
+box-shadow: 5px 5px 15px rgb(20, 20, 20);
+text-align: center;
+top: 500px;
+right: -0.1%;
+color: white;
+}
+
+.contenedor2 {
+position: relative;
+top:500px;
+}
+.imgblog {
+position: relative;
+left: 72%;
+top:120px;
+}
+.m10{
+position: relative;
+font-size: 38px;
+    font-weight: 800;
+    color: rgb(84, 81, 81);
+    left:3%;
+    top: 300px;
+}
+.fs18{
+    position: relative;
+font-size: 28px;
+    font-weight: 900;
+    color:rgb(7, 21, 111);
+    left:7%;
+     top: 300px;
+}
+.bg {
+  position: relative;
+font-size: 48px;
+ top: 300px;
+ font-weight: 900;
+ color:rgb(226, 212, 14);
+left:35%;   letter-spacing: .12em;
+animation:  typing 3.5s steps(40, end) forwards infinite,
+blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+
+@keyframes blink-caret {
+from, to { border-color: transparent }
+50% { border-color: rgb(22, 22, 22); }
+}
+
+.container-buscar {
+position: relative;
+width: 600px; 
+height: 40px; 
+padding: 10px; 
+font-size: 16px; 
+border-radius: 5px; 
+border: 1px solid #4042d4; 
+margin: 10px;
+top: 140px;
+left: 45%;
+}
+.form{
+position: relative;
+min-width: 90%;
+}
+
+.form-c:hover {
+border-color:rgb(18, 49, 251);
+}
+
+.car{
+    position: relative;
+  display:inline-block;
+  justify-content: center;
+   margin: 0 10px; 
+    left: 4%;
+}

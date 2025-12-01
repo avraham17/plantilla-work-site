@@ -1,32 +1,37 @@
-nav.menu{
-    border-bottom:  1px solid #000;
+nav{
+   
     position: relative;
-    background-color:#0d47a1;
-    
+    min-width: 100%;
+    background-color:rgb(47, 47, 48);
 }
+ 
 
-nav.menu ul{
-    position: relative;
-    
-    width: 100%;
-}
-
-nav.menu ul li{
-    position: relative;
-    display: inline-block;
-    vertical-align: top;
+nav  li a{
+    display:inline-block;
     list-style: none;
-    left:950px
-
-}
- nav.menu ul li a{
-    display: block;
-    position: relative;
     text-decoration: none;
-    padding: 10px 20px;
-    color: #191919;
+    padding: 10px 15px;
+    color: #cfcfd2;
+    background-color:rgb(7, 21, 111);
  }
- nav.menu ul li a:hover,
- nav.menu ul li a.activo{
-    background-color:white
+
+ nav ul li a:hover,
+ nav  ul li a.activo{
+    background-color:rgb(163, 163, 165);
  }
+nav > li {float:inline-end;} 
+
+nav li ul{
+    display:none ;
+    position: absolute;
+    min-width:140px; 
+   
+}
+nav li:hover > ul {
+    display: block;
+}
+ ul{
+    display: flex;
+    list-style:none;
+    
+  }

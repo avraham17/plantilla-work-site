@@ -1,69 +1,165 @@
-body {
-      font-family: 'Poppins', sans-serif;
-      background: #e3f2fd;
-      margin: 0;
-      padding: 0;
-      background-image: url(../assets/image1.jpg);
-    }
+  body {
+  font-family: 'Poppins', sans-serif;
+  background: #e3f2fd;
+  margin: 0;
+  padding: 0;
+
+  }
+
+
+  .container { 
+  position: relative;
+  height: 1000px;
+  min-width: 800px;
+  margin: 80px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow:  4px 10px rgba(12, 37, 164, 0.1);
+  top:260px;
+  }
+
+  h2 {
+  text-align: center;
+  color: #0d47a1;
+  margin-bottom: 20px;
+  }
+
+  .filters {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  }
+
+  select, input { 
+  position: relative;
+  width: 400px;
+  padding: 20px;
+  border-radius: 22px;
+  border: 1px solid #0d47a1;
+
+  }
+
+  .jobs {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+  gap: 20px;
+  }
+
+  .job-card {
+  position: relative;
+  width: 800px;
+  height: 200px;
+  left: 44%;
+  top: 50px;
+  background: #c7c7c7;
+  border-radius: 70px;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+
+  .job-card h3 {
+  margin-top: 0;
+  color: #0d47a1;
+  }
+
+  .job-card button {
+  background: #1565c0;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  }
+
+  .job-card button:hover {
+  background: #567ab0;
+
+  }
+
+  #hprincipal h3{
+  position: absolute;
+  font-size: 70px;
+  width: 450px;
+  left: 47%;
+  top: 10px;        
+  text-align: center;    
+  margin: 50px;   
+  color: rgb(7, 21, 111);
+  box-shadow: 5px 5px 15px rgb(63, 63, 63);
+  border-radius: 80px;  }
+
+  .run {
+  position: absolute;
+  right: 48%;
+  top: 0px;
+
+  }
+
+  .rf {
+  position: absolute;
+  right: 1%;
+  top: 1480px;
+
+  }
+
+  .ob {
+  position: absolute;
+  right: 73%;
+  top: 595px;
+
+  }
+  .an{
+  position: absolute;
+  right: 1%;
+  top:2480px;
+
+  }
+
+  .container2{
+  position: relative;
     
-    
-    .container {
-      min-width: 800px;
-      margin: 80px auto;
-      background: white;
-      padding: 30px;
-      border-radius: 15px;
-      box-shadow:  4px 10px rgba(12, 37, 164, 0.1);
-    }
+  display:inline-block;
+  top: 500px;
+  }
 
-    h2 {
-      text-align: center;
-      color: #0d47a1;
-      margin-bottom: 20px;
-    }
+  
 
-    .filters {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      margin-bottom: 30px;
-    }
+  .active { 
+  position: relative; 
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  margin: 5px;
+  background-color: rgb(196, 198, 200);
+  } 
 
-    select, input {
-      padding: 10px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-      width: 200px;
-    }
+  li a:hover {
+    background-color: rgb(27, 98, 170);
+  }
 
-    .jobs {
-      display: grid;
-     
-      grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
-      gap: 20px;
-    }
+  .cI{ 
+  position: relative;
+  margin: 15px ;
+  list-style:none; 
+  }
 
-    .job-card {
-      background: #bbdefb;
-      border-radius: 10px;
-      padding: 20px;
-      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-    }
+  a{ 
+  position: relative;
+  display: flex;
+  margin: 5px ;
+  list-style:none;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(196, 198, 200);
+  }
 
-    .job-card h3 {
-      margin-top: 0;
-      color: #0d47a1;
-    }
-
-    .job-card button {
-      background: #1565c0;
-      color: white;
-      border: none;
-      padding: 10px 15px;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-
-    .job-card button:hover {
-      background: #0d47a1;
-    }
+  ._1 {
+    position: relative;
+    top: 100 px;
+  }

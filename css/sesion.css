@@ -1,0 +1,53 @@
+* *{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    
+    font-family:  Arial;
+    background-repeat: no-repeat;   
+    
+    ;
+}
+
+#hprin{
+    position: relative;
+    width:10px;
+    height:10px; 
+}
+
+.conten{
+    position: relative;
+     top: -150px;
+    text-align: center;
+}
+
+main{
+    position: relative;
+     height:650px;
+    width: 680px;
+   margin-left: 200px;
+   background-color: rgb(224, 231, 249);
+    top:20px;
+    
+    
+   
+}
+footer#fprincipal{
+    position: relative;
+    right:200px;
+    top:-50px;
+    text-align: center   ;
+    
+}
+
+h1{ text-align: center  ;}
+
+#imagen{
+    position:relative;
+    width: 200px;
+    height: 200px;
+    right: -400px;
+}

@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #cfe8ff; 
+    margin: 0;
+    padding: 20px;
+}
+
+.cv-container {
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0003;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    background: #2563eb;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* FOTO DE PERFIL */
+.foto-contenedor {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#preview {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2563eb;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+header#hprincipal .logo{
+    position: absolute; 
+    width:200px;
+    height:180px;
+    top:20px;
+    left:10px;
+    background-image: url(../assets/la_oportunidad_436x400.png);
+    background-size: 100%;
+}
