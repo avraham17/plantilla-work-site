@@ -1,16 +1,40 @@
  body {
-      margin: 0;
+     
        font-family: 'Poppins', sans-serif;
-      background: #e3f2fd;
-      margin: 0;
-      padding: 0;
+      background: #cbdde9;
+     
   
     }
 
-    .about-container {
-      width:800px;
+    main {
+      position:absolute;
+      width: 100%;
+      height:1600px;
+      align-content: center;
+      background-color: rgb(255, 255, 255);
+    }
+    
+        .logo{
+        position: absolute; 
+        width:240px;
+        height:200px;
+        top:40px;
+        left:85%;
+        background-image: url(../assets/la_oportunidad_436x400.png);
+        background-size: 100%;
+        }
+
+        nav {
+          position: relative;
+          top: -190px
+        }
+
+        .about-container { 
+      position: relative;
+      height: 850px;
+      width:1200px;
       margin: 100px auto;
-      background: white;
+      background-color: rgb(231, 242, 255);
       border-radius: 40px;
       padding: 80px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
@@ -87,4 +111,48 @@
         width: 130%;
       }
     }
-   
+    footer#fprincipal{
+    position: relative;
+    width: 100%; 
+    height: 100px;
+    top:1500px;
+    text-align: center;
+    background-color: #272728;
+    color: #e0e0e0;}
+  
+    .col {
+      position: relative;
+      top: -11px;
+    }
+      #hprincipal h3{
+      position: absolute;
+      font-size: 70px;
+      width: 450px;
+      left: 2%;
+      top: 160px;        
+      text-align: center;    
+      margin: 50px;   
+      color: rgb(7, 21, 111);
+      box-shadow: 5px 5px 15px rgb(63, 63, 63);
+      border-radius: 80px;  
+
+      }
+
+      .tb {
+        position: absolute;
+        top: 30px;
+        right: 25%;
+        animation: moverImagen 5s ease-in-out infinite; 
+        }
+        @keyframes moverImagen {
+        0% {
+        transform: translateX(0); 
+        }
+        50% {
+        transform: translateX(100px); 
+        }
+        100% {
+        transform: translateX(0); 
+        }
+
+        }

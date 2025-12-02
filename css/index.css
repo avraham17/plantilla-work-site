@@ -63,9 +63,21 @@ text-align: center;
 margin: 50px;   
 color: rgb(7, 21, 111);
 box-shadow: 5px 5px 15px rgb(63, 63, 63);
-border-radius: 80px;  
-
+border-radius: 80px;
+animation: moverImagen 5s ease-in-out infinite; 
 }
+@keyframes moverImagen {
+0% {
+transform: translateX(0); 
+}
+50% {
+transform: translateX(100px); 
+}
+100% {
+transform: translateX(0); 
+}
+
+}  
 #title_{
 position:relative;
 left: 830px;
@@ -145,7 +157,7 @@ padding: 20px;
 margin: 50px;   
 border-radius: 80px;  
 display:inline-block;
-box-shadow: 5px 5px 15px rgb(57, 57, 57);
+box-shadow: 5px 5px 15px rgba(57, 57, 57, 0.608);
 text-align: center;
 top: 550px;
 left: 5%;
@@ -155,12 +167,12 @@ left: 5%;
 { position: absolute;
 width: 900px;           
 height: 320px;          
-background-color: #606162; 
+background-color: #606162ae; 
 padding: 20px;      
 margin: 50px;   
 border-radius: 80px;  
 display:inline-block;
-box-shadow: 5px 5px 15px rgb(23, 56, 220);
+box-shadow: 5px 5px 15px rgb(34, 34, 34);
 text-align: center;
 top: 260px;
 left: 31%;
@@ -199,7 +211,7 @@ transform: translateX(0);
 { position: absolute;
 width: 850px;           
 height: 150px;          
-background-color:rgb(7, 21, 111);
+background-color:rgb(29, 59, 255);
 padding: 20px;      
 margin: 50px;   
 border-radius: 80px;  
@@ -281,7 +293,8 @@ font-size: 48px;
  top: 300px;
  font-weight: 900;
  color:rgb(226, 212, 14);
-left:35%;   letter-spacing: .12em;
+left:35%;   
+letter-spacing: .12em;
 animation:  typing 3.5s steps(40, end) forwards infinite,
 blink-caret .75s step-end infinite;
 }

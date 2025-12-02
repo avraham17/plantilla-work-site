@@ -1,7 +1,8 @@
 nav{
    
     position: relative;
-    width: 100%;
+    border-radius: 28px;
+    min-width:100% ;
     background-color:rgb(47, 47, 48);
 }
  
@@ -9,6 +10,7 @@ nav{
 nav  li a{
     display:inline-block;
     list-style: none;
+    border-radius: 28px;
     text-decoration: none;
     padding: 10px 15px;
     color: #cfcfd2;
