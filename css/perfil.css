@@ -5,11 +5,11 @@
     main{
     
     width: 100%; 
-    height: 1900px; 
+    height: 2200px; 
     justify-content: center; 
     align-items: center; 
-    background-color:#ffffff;
-    top: -410px; }
+    background-color:#e6f2ff;
+     }
 
 
 .bloque1{
@@ -20,10 +20,11 @@ background-color: #ffffff;
 padding: 20px;      
 border-radius: 80px; 
 text-align: center;
-top: 150px;
+top: 650px;
 right: -1%;
 text-align:center;
-box-shadow: 5px 5px 15px rgb(90, 109, 252);
+box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+
 }
 
 .bloque2{
@@ -36,7 +37,7 @@ border-radius: 80px;
 text-align: center;
 left: 105%;
 top: 120px;
-box-shadow: 5px 5px 15px rgb(90, 109, 252);
+box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 
@@ -50,7 +51,7 @@ border-radius: 80px;
 text-align: center;
 right: 4%; 
 top: -300px;
-box-shadow: 5px 5px 15px rgb(90, 109, 252);
+box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 .bloque4{
  position: relative;
@@ -62,7 +63,7 @@ border-radius: 80px;
 text-align: center;
 left: 118%;
 top: -18px;
-box-shadow: 5px 5px 15px rgb(90, 109, 252);
+box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 .n1 { font-size: 38px;} 
 .im1 { position: relative;right: 32%; display: flex; flex-direction: column; align-items: center;top: 25px; }
@@ -79,7 +80,7 @@ border-radius: 80px;
 text-align: center;
 left: 250%;
 top: 58px;
-box-shadow: 5px 5px 15px rgb(90, 109, 252);
+box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .bloque6{
@@ -93,80 +94,73 @@ text-align: center;
 top: -1440px;
 right: -12%;
 text-align:center;
-box-shadow: 5px 5px 15px rgb(90, 109, 252);
+box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.logo{
+position: absolute; 
+width:240px;
+height:200px;
+top:-5px;
+left:10px;
+background-image: url(../assets/la_oportunidad_436x400.png);
+background-size: 100%;
+    animation-name: rotar-360;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+
+}
+@keyframes rotar-360 {
+0% {
+transform: rotate(0deg);
+}
+100% {
+transform: rotate(360deg);
+}
+  } 
+
+
+.nn{
+    position: absolute;
+    left: 22%;
+    top: 450px;
 }
 
 nav{
     position: relative;
-    min-width: 100%;
-    background-color:rgb(47, 47, 48);
-    top: -380px;
-}
-nav.menu {
-position: relative;
-width: 1000px;
-height: 55px;
+    top: -50px;
 }
 
-nav  li a{
-    height: 35px;
-    display:inline-block;
-    list-style: none;
-    text-decoration: none;
-    padding: 10px 15px;
-    color: #cfcfd2;
-    background-color:rgb(7, 21, 111);
- }
+.header {
+    position: relative;
+    height: 120px;
+    background: #0077cc;
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
 
- nav ul li a:hover,
- nav  ul li a.activo{
-    background-color:rgb(7, 21, 111);
- }
-nav > li {float:inline-end;} 
+.header h1 { 
+    position: relative;
+    font-size: 50px;
+    top: -10px;
+    margin-bottom: 10px;
+}
 
-nav li ul{
-    display:none ;
+.header p {
+     position: relative;
+      top: -20px;
+    font-size: 28px;
+}
+.mundo {
     position: absolute;
-    min-width:140px; 
-   
-}
-nav li:hover > ul {
-    display: block;
-}
- ul{
-    display: flex;
-    list-style:none;
-    
-  }
-  
-.logo{
-position: relative; 
-width:240px;
-height:200px;
-left:3%;
-top: 200px;
-border-radius: 180px;
-
-
-  }
-
-  #hprincipal h3{
-position: relative;
-font-size: 70px;
-width: 550px;
-left: 50%;
-top:-130px;        
-text-align: center;    
-margin: 50px;   
-color: rgb(7, 21, 111);
-box-shadow: 5px 5px 15px rgb(90, 109, 252);
-border-radius: 80px;  
-background-color: white;
-
+    left: 70%;
+    top: 250px;
 }
 
-.nn{
+.ajuste {
     position: absolute;
-    left: 28%;
-    top: 70px;
+    left: 0%;
+    top: 550px;
 }

@@ -2,13 +2,13 @@
 footer#fprincipal{
     position: relative;
     width: 100%; 
-    height: 150px;
+    height: 100px;
     text-align: center;
     background-color: #fcfcff;
     color: #131313;
-    background-image: url(../assets/nnn.jpg);
+    
 }
 footer#principal small{
     position: relative;
-    top: 3  0px;
+    top: 30px;
 }

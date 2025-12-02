@@ -4,27 +4,35 @@
       margin: 0;
       padding: 0;
       
-    }
-  
-    .container {
+    } 
+   
+    main { 
       position: relative;
-      height: 1000px;
-      min-width: 800px;
-      margin: 80px auto;
-      background: rgb(151, 150, 150);
+      
+
+    }
+
+    .container {
+     position: relative;
+        margin: 80px auto;
+      background: #0d47a1;
       padding: 30px;
       border-radius: 15px;
-      top: 400px;
+      top: -200px;
 
     }
 
     h2 {
+      position: relative;
+      top: -170px;
       text-align: center;
       color: #0d47a1;
       margin-bottom: 20px;
     }
 
     .filters {
+      position: relative;
+      top: -160px;
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
@@ -35,7 +43,7 @@
       position: relative;
       padding: 10px;
       border-radius: 8px;
-      border: 1px solid #785b5b;
+      border: 1px solid #0d47a1;
       width: 200px;
     }
 
@@ -50,47 +58,47 @@
       position: relative;
       width: 900px;
       height: 200px;
-      top: 50px;
+      top: -130px;
       background: #bbdefb;
       border-radius: 10px;
       padding: 20px;
       box-shadow: 0 3px 6px rgba(0,0,0,0.1);
     }
 
-    .job-card h3 {
-      margin-top: 0;
-      color: #0d47a1;
-    }
-
-    .job-card button {
-      background: #1565c0;
-      color: white;
+    h3 {color: #00388c;}  strong {color:#0066ff;}   p {color:hsl(0, 0%, 27%);}
+      
+    button {
+      position: relative;
+      background-color: #0d47a1;
+      color: rgb(255, 255, 255);
       border: none;
       padding: 10px 15px;
       border-radius: 8px;
       cursor: pointer;
     }
 
-    .job-card button:hover {
-      background: #0d47a1;
+    button:hover {
+      background: #410e8d;
     }
     
       #hprincipal h3{
-      position: absolute;
+      position: relative;
       font-size: 70px;
       width: 450px;
       left: 47%;
       top: -1px;        
       text-align: center;    
       margin: 50px;   
+      background-color: white;
       color: rgb(7, 21, 111);
       box-shadow: 5px 5px 15px rgb(63, 63, 63);
       border-radius: 80px;  }
 
       .fonhe{
         position: absolute;
-        right: 60%;
-        top: 20px;
+        right: 65%;
+        top: -30px;
+        
       }
       .ph{
         position:absolute;
@@ -99,7 +107,7 @@
       }
       .ide{
         position: absolute;
-        top: 1650px;
+        top: 1750px;
         left: 70%;
       }
       .rd{
@@ -109,13 +117,13 @@
       }
       .mv {
         position: absolute;
-        top: 1600px;;
+        top: 1700px;;
       }
 
       .text {
         position: relative;
         text-align: center;
-        top: 500px;;
+        top: 700px;;
       }
       .text h1{
         color: rgb(7, 21, 111);
@@ -129,3 +137,13 @@
         justify-content: center;
       }
       .int h2 {color: white;}   .int p {color: #fffefe;}
+
+      footer {
+    position: relative;
+    width: 100%; 
+    height: 150px;
+    text-align: center;
+    background-color: #fcfcff;
+    color: #131313;
+    background-image: url(../assets/nnn.jpg);
+      }

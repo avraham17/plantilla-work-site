@@ -1,7 +1,7 @@
 nav{
    
     position: relative;
-    min-width: 100%;
+    width: 100%;
     background-color:rgb(47, 47, 48);
 }
  
@@ -12,12 +12,12 @@ nav  li a{
     text-decoration: none;
     padding: 10px 15px;
     color: #cfcfd2;
-    background-color:rgb(7, 21, 111);
+    background-color:rgb(47, 47, 48);
  }
 
  nav ul li a:hover,
  nav  ul li a.activo{
-    background-color:rgb(163, 163, 165);
+    background-color:rgb(36, 56, 232);
  }
 nav > li {float:inline-end;} 
 
@@ -30,7 +30,7 @@ nav li ul{
 nav li:hover > ul {
     display: block;
 }
- ul{
+ ul{position: relative;
     display: flex;
     list-style:none;
     

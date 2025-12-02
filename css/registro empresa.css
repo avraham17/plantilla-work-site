@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff; 
+    margin: 0;
+  
+}
+main {
+    position: relative;
+    height: 2200px;
+    background: #ffffff; 
+}
+.hprincipal  { position: relative; height: 223px;  left: 15%; color: #2563eb;}
+.hprincipal h1 { position: relative; right:35%; color:  #2563eb; }
+
+.fondo { position: absolute; top:-1px; left: 25%; }
+header { background-color: white;}
+.logo{
+    position: relative; 
+    width:240px;
+    height:220px;
+    right:15%;
+    top: -140px;
+    background-image: url(../assets/la_oportunidad_436x400.png);
+    background-size: 100%;
+    background-color: white;
+}
+.contenedor {
+    position: relative;
+    width: 55%;
+    right: 20%;
+    top: 120px;
+    margin: auto;
+    background: #d6d7d8; 
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0003;
+}
+nav {
+    position: relative;
+    width: 1000px;
+    top: -45px;    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1d4ed8;
+}
+
+h2 {
+    background: #565656;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.foto-contenedor {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#preview {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2563eb;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #565656;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.comer {
+    position: absolute;
+    left: 95%;
+    top: -30px;
+}

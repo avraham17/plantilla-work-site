@@ -1,0 +1,158 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #e6f2ff;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: relative;
+    height: 1140px;
+    top: -50px;
+}
+.header {
+    background: #0077cc;
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+}
+.services-section,
+.products-section { 
+    position: relative;
+    top: 140px;
+    padding: 40px 20px;
+    text-align: center;
+} 
+
+.services-section h2,
+.products-section h2 {
+    font-size: 30px;
+    color: #003366;
+    margin-bottom: 25px;
+}
+
+.services-grid {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.service-card img {
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    color: #003366;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #444;
+}
+
+button {
+    background: #005bb5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #004a94;
+}
+
+.products-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    width: 250px;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.product-card h3 {
+    color: #003366;
+}
+
+.product-card p {
+    color: #444;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.price {
+    display: block;
+    font-size: 20px;
+    color: #0077cc;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+ .servi {
+    position: absolute;
+    opacity: 0.7;
+    top:-3px;
+    left: 15%;
+ }
+ footer{
+    position: relative;
+    top: 114px;
+ }
+
+ .logo {
+    position: absolute; 
+width:240px;
+height:200px;
+top:5px;
+left:10px;
+background-image: url(../assets/la_oportunidad_436x400.png);
+background-size: 100%;
+    animation-name: rotar-360;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+
+}
+@keyframes rotar-360 {
+0% {
+transform: rotate(0deg);
+}
+100% {
+transform: rotate(360deg);
+}
+}
+
+ 
